@@ -1,2 +1,3 @@
 # alchemy-uni-projects
-Assignment project from Alchemy University
+Assignment projects from Alchemy University
+
