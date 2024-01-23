@@ -21,7 +21,7 @@ app.get("/balance/:address", (req, res) => {
   const balance = balances[address] || 0;
   res.send({ balance });
 });
-
+//
 app.post("/send", (req, res) => {
   const { sender, recipient, amount, signature } = req.body;
   setInitialBalance(sender);
